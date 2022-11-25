@@ -39,7 +39,7 @@ nav ul li a {
   color: white;
 }
 nav ul li a:hover {
-  color: #fd4766;
+  color: #2c7bfe;
 }
 nav ul li a:after {
   content: "";
@@ -47,7 +47,7 @@ nav ul li a:after {
   left: 0;
   width: 0;
   height: 3px;
-  background: #fd4766;
+  background: #2c7bfe;
   transition: 0.3s;
   bottom: 0;
   color: text
@@ -67,15 +67,15 @@ nav ul li a:hover:after {
   font-weight: 500;
   transition: all 0.4s ease-in-out;
   background-size: 152% 100%;
-  background: #fd4766;
-  border: 2px solid #fd4766;
+  background: #2c7bfe;
+  border: 2px solid #2c7bfe;
   color: text
   ;
 }
 .btn:hover {
   background: transparent;
-  border-color: #fd4766;
-  color: #fd4766;
+  border-color: #2c7bfe;
+  color: #2c7bfe;
 }
 .content {
   position: absolute;
@@ -94,14 +94,14 @@ nav ul li a:hover:after {
     120deg,
     #1c99fe 20.69%,
     #7644ff 50.19%,
-    #fd4766 79.69%
+    #2c7bfe 79.69%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  
 }
 .content h1 {
-  color: #ffffff;
+  color: #000000;
   font-size: 75px;
   font-weight: 900;
   line-height: 90px;
@@ -109,11 +109,11 @@ nav ul li a:hover:after {
   width: 70%;
 }
 .content h1 span {
-  color: #fd4766;
+  color: #2c7bfe;
 }
 .content p {
   width: 55%;
-  color: #ffffff;
+  color: #000000;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -155,7 +155,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #fd4766;
+  background-color: #2c7bfe;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -202,3 +202,5 @@ input[type=submit]:hover {
   min-width: 100%;
   min-height: 100%;
 }
+
+
